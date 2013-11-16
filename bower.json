@@ -1,0 +1,18 @@
+{
+  "name": "HelloAngular",
+  "version": "0.0.1",
+  "authors": [
+    "Carlo Ledesma <carlo.miguel.ledesma@gmail.com>"
+  ],
+  "description": "Basic Angular app",
+  "keywords": [
+    "Hello",
+    "Angular"
+  ],
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "angular": "1.2.0-rc.3",
+    "bootstrap-theme-white-plum": "0.3.0"
+  }
+}
