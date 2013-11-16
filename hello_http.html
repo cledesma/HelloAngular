@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Hello Angular HTTP!</title>
+		<link rel="stylesheet" type="text/css" href="bower_components/boostrap-theme-white-plum/dist/css/bootstrap.min.css">
+	</head>
+	<body>
+		<div ng-app="">
+
+			<input type="text" ng-model="data.message">
+			<h1>{{data.message}}</h1>				
+
+			<div ng-controller="FirstController">
+				<input type="text" ng-model="data.message">
+				<h1>{{data.message}}</h1>				
+			</div>
+			
+			<div ng-controller="SecondController">
+				<input type="text" ng-model="data.message">
+				<h1>{{data.message}}</h1>				
+			</div>
+
+			<div ng-controller="HttpController">
+				<input type="text" ng-model="data.name">
+				<h1>{{data.name}}</h1>
+				<button ng-click="doButtonClick();">Click me</button>				
+			</div>	
+
+		</div>
+
+		<script type="text/javascript" src="bower_components/angular/angular.min.js"></script>
+		<script type="text/javascript" src="main.js"></script>
+	</body>
+</html>
